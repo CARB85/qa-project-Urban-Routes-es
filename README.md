@@ -31,24 +31,30 @@ El proyecto está dividido en los siguientes archivos principales:
    ```bash
    pip install -r requirements.txt
    
-Configuración de Selenium: Asegúrate de tener el controlador adecuado para el navegador que deseas usar (por ejemplo, chromedriver para Google Chrome).
+2. **Configuración de Selenium**: 
+   Asegúrate de tener el controlador adecuado para el navegador que deseas usar (por ejemplo, chromedriver para Google Chrome).
 
-Ejecutar las pruebas: Puedes ejecutar las pruebas utilizando pytest de la siguiente manera:
+3. **Ejecutar las pruebas**: 
+   Puedes ejecutar las pruebas utilizando pytest de la siguiente manera:
 
-bash
-Copiar código
-pytest main.py
-Resultado esperado: Las pruebas deben cubrir varios escenarios, como la configuración de direcciones, la selección de tarifas, y el proceso de pago. Asegúrate de que todos los tests pasen correctamente para validar la funcionalidad de la aplicación.
+   ```bash
+   pytest main.py
+   
+4. **Resultado esperado**: 
+Las pruebas deben cubrir varios escenarios, como la configuración de direcciones, la selección de tarifas, y el proceso de pago. Asegúrate de que todos los tests pasen correctamente para validar la funcionalidad de la aplicación.
 
-Descripción de las Pruebas
+## Descripción de las Pruebas
+
 Las pruebas automatizadas cubren el proceso completo de pedir un taxi, incluyendo los siguientes escenarios:
 
-Configurar las direcciones: Establecer la dirección de origen y destino.
-Seleccionar la tarifa Comfort: Validar la opción de tarifa.
-Agregar un número de teléfono: Ingresar un número de teléfono válido y obtener el código de confirmación.
-Agregar una tarjeta de crédito: Ingresar los datos de la tarjeta de crédito y el código de seguridad.
-Escribir un mensaje para el conductor: Ingresar un mensaje en el campo correspondiente.
-Solicitar artículos adicionales: Pedir mantas, pañuelos y helados.
-Esperar la asignación del conductor: Verificar la aparición del modal con la información del conductor y la cuenta regresiva.
-Incorporación del Patrón POM (Page Object Model)
+-**Configurar las direcciones**: Establecer la dirección de origen y destino.
+-**Seleccionar la tarifa Comfort**: Validar la opción de tarifa.
+-**Agregar un número de teléfono**: Ingresar un número de teléfono válido y obtener el código de confirmación.
+-**Agregar una tarjeta de crédito**: Ingresar los datos de la tarjeta de crédito y el código de seguridad.
+-**Escribir un mensaje para el conductor**: Ingresar un mensaje en el campo correspondiente.
+-**Solicitar artículos adicionales**: Pedir mantas, pañuelos y helados.
+-**Esperar la asignación del conductor**: Verificar la aparición del modal con la información del conductor y la cuenta regresiva.
+
+## Incorporación del Patrón POM (Page Object Model)
+
 Para hacer el código más ordenado y fácil de entender, se aplica el patrón de diseño Page Object Model (POM). Este enfoque organiza los elementos de la interfaz de usuario y las operaciones asociadas en clases separadas, facilitando la reutilización y el mantenimiento del código.
