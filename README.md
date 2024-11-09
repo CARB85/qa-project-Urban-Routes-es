@@ -47,13 +47,13 @@ Las pruebas deben cubrir varios escenarios, como la configuración de direccione
 
 Las pruebas automatizadas cubren el proceso completo de pedir un taxi, incluyendo los siguientes escenarios:
 
--**Configurar las direcciones**: Establecer la dirección de origen y destino.
--**Seleccionar la tarifa Comfort**: Validar la opción de tarifa.
--**Agregar un número de teléfono**: Ingresar un número de teléfono válido y obtener el código de confirmación.
--**Agregar una tarjeta de crédito**: Ingresar los datos de la tarjeta de crédito y el código de seguridad.
--**Escribir un mensaje para el conductor**: Ingresar un mensaje en el campo correspondiente.
--**Solicitar artículos adicionales**: Pedir mantas, pañuelos y helados.
--**Esperar la asignación del conductor**: Verificar la aparición del modal con la información del conductor y la cuenta regresiva.
+- **Configurar las direcciones**: Establecer la dirección de origen y destino.
+- **Seleccionar la tarifa Comfort**: Validar la opción de tarifa.
+- **Agregar un número de teléfono**: Ingresar un número de teléfono válido y obtener el código de confirmación.
+- **Agregar una tarjeta de crédito**: Ingresar los datos de la tarjeta de crédito y el código de seguridad.
+- **Escribir un mensaje para el conductor**: Ingresar un mensaje en el campo correspondiente.
+- **Solicitar artículos adicionales**: Pedir mantas, pañuelos y helados.
+- **Esperar la asignación del conductor**: Verificar la aparición del modal con la información del conductor y la cuenta regresiva.
 
 ## Incorporación del Patrón POM (Page Object Model)
 
